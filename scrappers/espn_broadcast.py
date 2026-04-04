@@ -21,7 +21,7 @@ def parse_broadcast_html(html: str) -> List[Dict]:
     text = soup.get_text("\n")
 
     pattern = re.compile(
-        r"(.*?)\s*Fecha:\s*(.*?)\s*Horario:\s*(.*?)\s*Lugar:\s*(.*?)\s*¿Dónde ver\?:\s*(.*?)(?=\n\s*[A-ZÁÉÍÓÚÑ].*?\s+vs\s+.*?\n|$)",
+        r"(.*?)\s*Fecha:\s*(.*?)\s*Horarios:\s*(.*?)\s*Lugar:\s*(.*?)\s*¿Dónde ver\?:\s*(.*?)(?=\n\s*[A-ZÁÉÍÓÚÑ].*?\s+vs\s+.*?\n|$)",
         re.DOTALL
     )
 

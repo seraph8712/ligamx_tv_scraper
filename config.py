@@ -1,5 +1,5 @@
 ESPN_CALENDAR_URL = "https://www.espn.com.mx/futbol/calendario/_/liga/mex.1/liga-mx"
-ESPN_BROADCAST_URL = "https://www.espn.com.mx/futbol/mexico/nota/_/id/16466469/liga-mx-jornada-12-horarios-donde-ver-partidos-clausura-2026"
+ESPN_BROADCAST_URL = "https://www.espn.com.mx/futbol/mexico/nota/_/id/16488137/liga-mx-jornada-13-horarios-y-donde-ver-clausura-2026"
 
 DEFAULT_HEADERS = {
     "User-Agent": (
